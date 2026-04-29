@@ -1,7 +1,7 @@
-# Job-Ready Testing Portfolio Project
+# Furhat Realtime Testing Notes
 
-This project is designed to match junior `Test Automation` / `System Test` roles quickly.
-It demonstrates:
+This is a small learning project I used to practice testing workflows around APIs, data checks, and Furhat realtime events.
+It currently covers:
 
 - Python coding
 - API testing with `pytest`
@@ -21,7 +21,7 @@ It demonstrates:
 - `tests/test_db.py` - SQL-based validation tests
 - `tests/test_furhat_simulator.py` - greeting/fallback/interruption/latency tests
 - `tests/test_furhat_api_client.py` - realtime websocket contract + optional live smoke test
-- `docs/bug_report_template.md` - interview-ready QA artifact
+- `docs/bug_report_template.md` - bug report format used during testing
 - `.github/workflows/tests.yml` - automated test pipeline
 
 ## Quick Start
@@ -37,14 +37,14 @@ pip install -r requirements.txt
 pytest -q
 ```
 
-## Skills You Can Claim From This Project
+## What I Practiced
 
-- Designed test scenarios and negative-path checks
-- Wrote API tests using `pytest` and mocking
-- Validated data integrity with SQL queries
-- Produced reproducible bug report templates
-- Automated regression tests in CI
-- Tested conversational robot behavior via scenario-based validation
+- Writing test scenarios including negative paths
+- API tests with `pytest` + mocking
+- SQL checks for test result data
+- Structured bug reports for repeatable debugging
+- Running tests automatically in CI
+- Conversation behavior checks for a Furhat-style flow
 
 ## Furhat-Style Scenarios Covered
 
@@ -81,7 +81,7 @@ python -m pytest -q
 
 The live Furhat test auto-skips until both env vars are provided.
 
-## Suggested Next Furhat Upgrade
+## Next Experiments
 
 Replace the local simulator with your real endpoint wrapper and add:
 
