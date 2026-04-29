@@ -62,15 +62,15 @@ This repo now includes a Furhat realtime websocket client with optional live smo
 Copy `.env.example` values into your shell:
 
 ```powershell
-$env:FURHAT_WS_URL="ws://192.168.1.108:9000/v1/events"
-$env:FURHAT_API_KEY="LEO"
+$env:FURHAT_WS_URL="ws://<robot-ip>:9000/v1/events"
+$env:FURHAT_API_KEY="<your-local-api-key>"
 ```
 
 In WSL/Linux:
 
 ```bash
-export FURHAT_WS_URL="ws://192.168.1.108:9000/v1/events"
-export FURHAT_API_KEY="LEO"
+export FURHAT_WS_URL="ws://<robot-ip>:9000/v1/events"
+export FURHAT_API_KEY="<your-local-api-key>"
 ```
 
 ### 2) Run full tests

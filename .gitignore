@@ -2,6 +2,7 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+.env
 bundle.min.js
 bundle.min.js.map
 request.min.js
